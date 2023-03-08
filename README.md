@@ -7,8 +7,9 @@
 > Um software de consulta cep.<br>
 > Projeto foi pensando e desenvolvido com o proposito de praticar e aplicar conceitos tecnicos de programacao.<br> Sem Fins lucrativos ou algo para prejudicar a marca..
 
-### Progresso
+<img src="doc/img/home.png" alt="logo_samuelflm">
 
+### Progresso
 ### Como Usar localmente
 
 ```shell
