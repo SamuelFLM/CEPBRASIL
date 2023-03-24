@@ -13,7 +13,7 @@
 ### Como Utilizar? 
 
 ```shell
-Primeiramente realizar download do projeto.
+Primeiramente realizar download do projeto..
 Executar main
 Adicionar o cep referente a consulta e pronto.
 ```

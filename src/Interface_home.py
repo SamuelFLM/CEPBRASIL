@@ -1,4 +1,6 @@
 import PySimpleGUI as sg
+import os
+import subprocess
 import webbrowser
 from Interface_cep import *
 def interface_home():
@@ -16,9 +18,10 @@ def interface_home():
         if event == sg.WIN_CLOSED:
             break
         if event == "consultar":
-            window.close()
-            interface_cep(home=interface_home)
-            break
+            subprocess.run(["pkill", "-f", "main.py"])
+            # window.close()
+            # interface_cep(home=interface_home)
+            # break
         if event == 'ajudar':
             webbrowser.open_new_tab("https://github.com/SamuelFLM/Cadastro_usuario_CEP")
 if __name__ == "__main__":
